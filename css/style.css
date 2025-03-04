@@ -1,0 +1,523 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: whitesmoke;
+}
+
+
+/* Bussiness Section  */
+.Container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.images img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content {
+    text-align: left;
+    max-width: 500px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.feature i {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Partner Section  */
+
+.h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.business {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+.stats div {
+    flex: 1;
+}
+.stats div:not(:last-child) {
+    border-right: 2px solid #ddd;
+}
+.stats h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+.stats p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.Partners{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    gap: 25px;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.Button button{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+/* Happy Clients Section */
+.happy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.user{
+    display: flex;
+}
+
+.d1{
+    width: 500px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Qusestion Section */
+.question{
+    padding: 20px;
+    background-color: #D9D9D9;
+    height: 60vh;
+}
+
+.qa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 70px;
+}
+
+.first{
+    background-color: #F8F8F8;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Footer Section */
+.info-box {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.info-box button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+}
+
+.contact-section {
+    display: flex;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contact-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-section button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background: linear-gradient(to bottom, #5e5e5b, #b3b3b3);
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    flex: 1;
+    max-width: 250px;
+}
+
+.footer-left .logo {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.footer-left .desc {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.column a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Social Media Section */
+.social-media {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons { 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    color: black; 
+    font-size: 30px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left {
+    text-align: left;
+    width: 20%;
+}
+.left img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+/* Responsive Section */
+
+@media screen and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    /* Navgitation Section */
+    #header img {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    body{
+        width: 100%;
+    }
+    /* Hero Section */
+    #herocontainer{
+        width: 100%;
+        margin-top: 10px;
+        padding-right: 0;
+    }
+
+    #NavbaR{
+        width: 100%;
+    }
+    /* Business Section */
+    .Container{
+        width: 100%;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    .images img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        padding: 0;
+        margin: 0;
+    }
+
+    .our{
+        width: 100%;
+        font-size: 20px;    
+        padding: 0;margin: 0;
+    }
+
+    .h4{
+        width: 100%;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .image-placeholder img{
+        width: 100%;
+    }
+    /* Parter Section */
+    #partners {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    #img1{
+        width: 80px;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    #img2{
+        width: 80px;
+        padding: 0;
+        margin: 0
+    }
+
+    #img3{
+        width: 80px;
+        padding: 0;
+        margin: 0
+    }
+
+    #img4{
+        width: 80px;
+        padding: 0;
+        margin: 0
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats div:not(:last-child) {
+        border-right:none;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    #fir{
+        width: 100%;
+    }
+
+    #sec{
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .feature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Partners {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d1 {
+        text-align: center;
+    }
+
+    .user {
+        justify-content: center;
+    }
+    /* Happy Clients Section */
+    .happy{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .d1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #d2{
+        margin-bottom: 20px;
+    }
+
+    #H4{
+        text-align: center;
+        font-size: larger;
+    }
+    /* Question section */
+    #question{
+        width: 100%;
+        padding: 0;
+    }
+
+    .qa{
+        flex-direction: column;
+    }
+
+    .qa img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #Frequently{
+        width: 100%;
+        margin: 0;
+    }
+
+    #Frequently #l1{
+        display: none;
+    }
+
+    /* Footer scetion */
+    #info-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Content{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Content .left{
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .Content img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-links{
+        margin-top: 20px;
+    }
+
+    .social-media{
+        margin-top: 20px;
+    }
+
+    /* Footer scetion End */
+}
